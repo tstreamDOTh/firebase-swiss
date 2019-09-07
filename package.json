@@ -1,7 +1,7 @@
 {
   "name": "fire-functions",
   "version": "0.0.1",
-  "description": "fire-functions",
+  "description": "Under Development",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "browser": "dist/index.js",
