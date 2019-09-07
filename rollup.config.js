@@ -10,7 +10,7 @@ export default [
     input: 'src/index.js',
 
     output: {
-      name: 'firefunctions',
+      name: 'fire-functions',
       file: pkg.browser,
       format: 'umd',
       interop: false,
