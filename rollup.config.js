@@ -10,7 +10,7 @@ export default [
     input: 'src/index.js',
 
     output: {
-      name: 'fire-functions',
+      name: 'firebase-swiss',
       file: pkg.browser,
       format: 'umd',
       interop: false,

@@ -1,5 +1,5 @@
 {
-  "name": "fire-functions",
+  "name": "firebase-swiss",
   "version": "0.0.1",
   "description": "Under Development",
   "main": "dist/index.cjs.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tstreamDOTh/fire-functions.git"
+    "url": "git+https://github.com/tstreamDOTh/firebase-swiss.git"
   },
   "author": "Thiyagaraj T",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tstreamDOTh/fire-functions/issues"
+    "url": "https://github.com/tstreamDOTh/firebase-swiss/issues"
   },
-  "homepage": "https://github.com/tstreamDOTh/fire-functions#readme",
+  "homepage": "https://github.com/tstreamDOTh/firebase-swiss#readme",
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@babel/plugin-proposal-class-properties": "7.5.5",
