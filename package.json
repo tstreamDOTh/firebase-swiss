@@ -34,6 +34,9 @@
     "rollup-plugin-terser": "5.1.1"
   },
   "dependencies": {
+    "@kubric/litedash": "^0.0.2"
+  },
+  "peerDependencies": {
     "firebase-functions": "^3.2.0"
   }
 }

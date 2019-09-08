@@ -854,6 +854,11 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@kubric/litedash@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@kubric/litedash/-/litedash-0.0.2.tgz#da99fbc404240c00c65ce36db80d1b6ea779cbd9"
+  integrity sha512-qaSTZJRBQfwYuF0gH3T9fsx2tBBVTUECVMwK8/6FZEsSRPHSzgKriO1NJuJltzasUGa2ZIjGgRQ1l7Jr9vaCwg==
+
 "@types/babel__core@^7.1.0":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.3.tgz#e441ea7df63cd080dfcd02ab199e6d16a735fc30"
