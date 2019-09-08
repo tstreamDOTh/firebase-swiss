@@ -1,4 +1,4 @@
-import functions from 'firebase-functions';
+const functions = require('firebase-functions');
 import { DEFAULT_OPTIONS, TYPES } from '../constants';
 import { callbackWithCorsWrapped } from '../util';
 import { isUndefined } from '@kubric/litedash';
@@ -7,7 +7,7 @@ export class FireFunctions {
   constructor(database) {
     this.database = database;
   }
-  getFireFunction = (type, ref, requestBodyTransformer, options) => {
+  getFireFunction(type, ref, requestBodyTransformer, options) {
     const resolvedOptions = { ...DEFAULT_OPTIONS, options };
     const { enableCors, idKey } = resolvedOptions;
     switch (type) {
@@ -73,5 +73,5 @@ export class FireFunctions {
       default:
         throw 'Invalid Type! allowed Types - CREATE, GET, PATCH';
     }
-  };
+  }
 }

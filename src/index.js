@@ -1,1 +1,1 @@
-export * from './firefunctions';
+export * from './firefunctions/index';
