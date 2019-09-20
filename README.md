@@ -9,7 +9,7 @@
 
 -   [Install](#install)
 -   [Usage](#usage)
--   [Recipes (Coming Sonn)](#recipes)
+-   [Recipes (Coming Soon)](#recipes)
 -   [Options (Coming Soon) ](#options)
 
 ## Install
