@@ -29,7 +29,9 @@ export class FireFunctions {
       case TYPES.GET:
         return functions.https.onRequest((request, response) => {
           callbackWithCorsWrapped(() => {
-            const subref = isUndefined(request.query[idKey]) ? '' : `/${request.query[idKey]}`;
+            const subref = isUndefined(request.query[idKey])
+              ? ''
+              : `/${request.query[idKey]}`;
             return this.database
               .ref(`${ref}/${subref}`)
               .once('value')
@@ -41,7 +43,9 @@ export class FireFunctions {
       case TYPES.PATCH:
         return functions.https.onRequest((request, response) => {
           callbackWithCorsWrapped(() => {
-            const subref = isUndefined(request.query[idKey]) ? '' : `/${request.query[idKey]}`;
+            const subref = isUndefined(request.query[idKey])
+              ? ''
+              : `/${request.query[idKey]}`;
             if (request.method !== 'PATCH') {
               response.status(400).send('Please send a PATCH request');
               return;
@@ -57,7 +61,9 @@ export class FireFunctions {
       case TYPES.DELETE:
         return functions.https.onRequest((request, response) => {
           callbackWithCorsWrapped(() => {
-            const subref = isUndefined(request.query[idKey]) ? '' : `/${request.query[idKey]}`;
+            const subref = isUndefined(request.query[idKey])
+              ? ''
+              : `/${request.query[idKey]}`;
             if (request.method !== 'DELETE') {
               response.status(400).send('Please send a DELETE request');
               return;
@@ -71,7 +77,7 @@ export class FireFunctions {
           });
         });
       default:
-        throw 'Invalid Type! allowed Types - CREATE, GET, PATCH';
+        throw 'Invalid Type! allowed Types - CREATE, GET, PATCH, and DELETE';
     }
   }
 }
