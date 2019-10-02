@@ -71,7 +71,7 @@ export class FireFunctions {
           });
         });
       default:
-        throw 'Invalid Type! allowed Types - CREATE, GET, PATCH';
+        throw 'Invalid Type! allowed Types - CREATE, GET, PATCH, and DELETE';
     }
   }
 }
