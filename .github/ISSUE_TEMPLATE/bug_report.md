@@ -7,12 +7,10 @@ about: Create a report to help us improve
 
 <!-- Use Help > Report Issue to prefill these. -->
 - Firebase Swissknife Version:
-- Browser:
-- Browser Version:
+- Node Version:
+- Firebase Functions Version:
 
 Steps to Reproduce:
 
 1.
 2.
-
-Does this issue occur when all extensions are disabled?: Yes/No
