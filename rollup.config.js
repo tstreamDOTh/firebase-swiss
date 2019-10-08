@@ -16,8 +16,6 @@ export default [
       interop: false,
       sourcemap: true
     },
-    external: ['@kubric/litedash'],
-
     plugins: [
       resolve({
         browser: true,
