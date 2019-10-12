@@ -79,7 +79,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/thiyagarajt/"><img src="https://avatars0.githubusercontent.com/u/11137394?v=4" width="100px;" alt="T Thiyagaraj"/><br /><sub><b>T Thiyagaraj</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=tstreamDOTh" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Slide109"><img src="https://avatars0.githubusercontent.com/u/29676121?v=4" width="100px;" alt="Dmitry Savchenkov"/><br /><sub><b>Dmitry Savchenkov</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=Slide109" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://boseriko.com/"><img src="https://avatars1.githubusercontent.com/u/10940193?v=4" width="100px;" alt="Bos Eriko Reyes"/><br /><sub><b>Bos Eriko Reyes</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=BosEriko" title="Documentation">📖</a></td>
   </tr>
 </table>
 
