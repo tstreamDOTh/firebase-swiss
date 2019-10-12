@@ -24,9 +24,6 @@ jobs:
       - run:
           name: Installing packages
           command: yarn install
-      - run:
-          name: Run tests
-          command: npm test
 
       - save_cache:
           paths:
@@ -55,7 +52,7 @@ jobs:
           command: echo "//registry.npmjs.org/:_authToken=$npm_TOKEN" > ~/repo/.npmrc
       - run:
           name: Publish package
-          command: "npm publish ./__release__ --access public"
+          command: 'npm publish ./__release__ --access public'
 
 workflows:
   version: 2
