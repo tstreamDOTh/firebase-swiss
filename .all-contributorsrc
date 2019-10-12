@@ -2,7 +2,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 80,
   "commit": false,
   "contributors": [
     {
@@ -19,6 +19,51 @@
       "name": "Alejandro Baeza",
       "avatar_url": "https://avatars3.githubusercontent.com/u/42570659?v=4",
       "profile": "https://github.com/alexbaeza",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "vobango",
+      "name": "Kaspar Arme",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17966712?v=4",
+      "profile": "https://www.arme.ee/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Slide109",
+      "name": "Dmitry Savchenkov",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29676121?v=4",
+      "profile": "https://github.com/Slide109",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "BosEriko",
+      "name": "Bos Eriko Reyes",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10940193?v=4",
+      "profile": "http://boseriko.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "CoryWritesCode",
+      "name": "Cory Cunningham",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34924300?v=4",
+      "profile": "https://github.com/CoryWritesCode",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vAporInside",
+      "name": "vAporInside",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/28507278?v=4",
+      "profile": "https://github.com/vAporInside",
       "contributions": [
         "doc"
       ]
