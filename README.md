@@ -3,6 +3,7 @@
 
  <img src="https://res.cloudinary.com/ddbxzcb7k/image/upload/v1568999179/firebaseswiss-02_hy9whb.png" width="50">
  
+
 [![Build Status](https://circleci.com/gh/LogRocket/redux-logger/tree/master.svg?style=svg)](https://circleci.com/gh/tstreamDOTh/firebase-swiss/tree/master)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [![node](https://img.shields.io/badge/node-10.16.x-brightgreen.svg)](https://github.com/tstreamDOTh/firebase-swiss) [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
 
@@ -78,6 +79,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/thiyagarajt/"><img src="https://avatars0.githubusercontent.com/u/11137394?v=4" width="100px;" alt="T Thiyagaraj"/><br /><sub><b>T Thiyagaraj</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=tstreamDOTh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/alexbaeza"><img src="https://avatars3.githubusercontent.com/u/42570659?v=4" width="100px;" alt="Alejandro Baeza"/><br /><sub><b>Alejandro Baeza</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=alexbaeza" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/thiyagarajt/"><img src="https://avatars0.githubusercontent.com/u/11137394?v=4" width="80px;" alt="T Thiyagaraj"/><br /><sub><b>T Thiyagaraj</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=tstreamDOTh" title="Code">💻</a></td>
     <td align="center"><a href="https://www.arme.ee/"><img src="https://avatars0.githubusercontent.com/u/17966712?v=4" width="80px;" alt="Kaspar Arme"/><br /><sub><b>Kaspar Arme</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=vobango" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Slide109"><img src="https://avatars0.githubusercontent.com/u/29676121?v=4" width="80px;" alt="Dmitry Savchenkov"/><br /><sub><b>Dmitry Savchenkov</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=Slide109" title="Documentation">📖</a></td>
