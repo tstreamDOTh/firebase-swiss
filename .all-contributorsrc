@@ -2,7 +2,7 @@
   "files": [
     "README.md"
   ],
-  "imageSize": 100,
+  "imageSize": 80,
   "commit": false,
   "contributors": [
     {
@@ -22,6 +22,25 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Slide109",
+      "name": "Dmitry Savchenkov",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29676121?v=4",
+      "profile": "https://github.com/Slide109",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "CoryWritesCode",
+      "name": "Cory Cunningham",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34924300?v=4",
+      "profile": "https://github.com/CoryWritesCode",
+      "contributions": [
+        "code"
+      ]
+    }
     }
   ],
   "contributorsPerLine": 7,
