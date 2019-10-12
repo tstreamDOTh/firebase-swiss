@@ -23,15 +23,15 @@ export class FireFunctions {
               const newObjectRef = this.database.ref(ref).push();
               const id = newObjectRef.key;
               response.__id__ = id;
-              newObjectRef.set(requestBodyTransformer({ id, ...request.body }, extractFromBody)).then(snapshot => {
-                response.status(200).send({ id, ...snapshot.value() });
+              newObjectRef.set({ id, ...requestBodyTransformer(request.body, extractFromBody) }).then(snapshot => {
+                response.status(200).send(snapshot.val());
               });
               return;
             },
             enableCors
           );
         });
-      case TYPES.GET:
+      case TYPES.READ:
         return functions.https.onRequest((request, response) => {
           callbackWithCorsWrapped(
             request,
@@ -48,7 +48,7 @@ export class FireFunctions {
             enableCors
           );
         });
-      case TYPES.PATCH:
+      case TYPES.UPDATE:
         return functions.https.onRequest((request, response) => {
           callbackWithCorsWrapped(
             request,
@@ -61,9 +61,9 @@ export class FireFunctions {
               }
               return this.database
                 .ref(`${ref}/${subref}`)
-                .set(requestBodyTransformer(request.body, extractFromBody))
+                .set({ [idKey]: subref, ...requestBodyTransformer(request.body, extractFromBody) })
                 .then(snapshot => {
-                  response.status(200).send(request.body);
+                  response.status(200).send(snapshot.val());
                 });
             },
             enableCors
@@ -80,11 +80,12 @@ export class FireFunctions {
                 response.status(400).send('Please send a DELETE request');
                 return;
               }
+              response.__id__ = request.query[idKey];
               return this.database
                 .ref(`${ref}/${subref}`)
                 .remove()
                 .then(snapshot => {
-                  response.status(200).send(request.body);
+                  response.status(200).send(snapshot.val());
                 });
             },
             enableCors

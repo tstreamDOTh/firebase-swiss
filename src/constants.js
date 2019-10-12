@@ -5,6 +5,7 @@ export const DEFAULT_OPTIONS = {
 
 export const TYPES = {
   CREATE: 'CREATE',
-  GET: 'GET',
-  PATCH: 'PATCH'
+  READ: 'READ',
+  UPDATE: 'UPDATE',
+  DELETE: 'DELETE'
 };
