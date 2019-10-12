@@ -1,4 +1,5 @@
 # firebase-swiss
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
  <img src="https://res.cloudinary.com/ddbxzcb7k/image/upload/v1568999179/firebaseswiss-02_hy9whb.png" width="50">
  
@@ -68,3 +69,19 @@ exports.deleteApplicantById = firefunctions.getFireFunction({
 });
 
 ```
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/thiyagarajt/"><img src="https://avatars0.githubusercontent.com/u/11137394?v=4" width="100px;" alt="T Thiyagaraj"/><br /><sub><b>T Thiyagaraj</b></sub></a><br /><a href="https://github.com/tstreamDOTh/firebase-swiss/commits?author=tstreamDOTh" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
